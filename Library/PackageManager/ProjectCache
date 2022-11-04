@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031398259617028
-    m_Hash: 883212020
+      ticks: 638031477031541884
+    m_Hash: 3614196695
   m_LockFileStatus:
     m_FilePath: C:/Users/pc/Desktop/DefenceGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638031398259617028
-    m_Hash: 192708244
+      ticks: 638031477031641908
+    m_Hash: 1596329787
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -865,12 +865,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.xr.interaction.toolkit@2.0.3
+- packageId: com.unity.xr.interaction.toolkit@2.2.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.3
+  version: 2.2.0
   source: 1
-  resolvedPath: C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.3
+  resolvedPath: C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.xr.interaction.toolkit@2.2.0
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -925,7 +925,7 @@ m_ResolvedPackages:
     verified: 2.0.4
   dependencies:
   - name: com.unity.inputsystem
-    version: 1.2.0
+    version: 1.3.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.xr.core-utils
@@ -981,13 +981,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637961469370000000
+  datePublishedTicks: 638009916820000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
-    revision: 6e9903d65de96f51b380acde84629283eab620db
+    revision: bb21b025f22df3ff22db8542eeee45c154640b88
     path: 
   unityLifecycle:
     version: 2.0.2

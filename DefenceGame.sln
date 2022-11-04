@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.LipSync", "Oculus.Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Wit.TTS.Samples", "Facebook.Wit.TTS.Samples.csproj", "{64a6ab83-98b9-3d26-7929-e4d0cb988db3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{8e00883f-89ba-6f6d-0d96-fc0591ebaee8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Wit.Editor", "Facebook.Wit.Editor.csproj", "{bf3a8aed-b8ac-af64-de81-a541205c61ab}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Interaction.Editor", "Oculus.Interaction.Editor.csproj", "{f3b0f4e6-fe64-a197-7af6-eb18eb9b43c6}"
@@ -112,6 +114,8 @@ Global
 		{5bf349a1-bd98-07fe-2261-4ac493c4756a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64a6ab83-98b9-3d26-7929-e4d0cb988db3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64a6ab83-98b9-3d26-7929-e4d0cb988db3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8e00883f-89ba-6f6d-0d96-fc0591ebaee8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8e00883f-89ba-6f6d-0d96-fc0591ebaee8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{bf3a8aed-b8ac-af64-de81-a541205c61ab}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{bf3a8aed-b8ac-af64-de81-a541205c61ab}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f3b0f4e6-fe64-a197-7af6-eb18eb9b43c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
