@@ -390,6 +390,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Dictation.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
+"Assets/FireBulletOnValidate.cs"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
