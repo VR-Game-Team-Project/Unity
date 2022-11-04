@@ -373,6 +373,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.CoreUtils.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.MockHMD.Editor.ref.dll"
@@ -514,6 +515,7 @@
 "Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs"
 "Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
+"Assets/Script/FireBulletOnValidate.cs"
 "Assets/Script/MouseLook.cs"
 -langversion:9.0
 
