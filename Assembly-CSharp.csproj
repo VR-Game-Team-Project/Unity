@@ -161,6 +161,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrackSegment.cs" />
      <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
      <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
+     <Compile Include="Assets\Script\MouseLook.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Wall.shader" />
