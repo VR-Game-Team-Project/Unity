@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c671e955-fe0d-43e4-f248-1618a372a52e}</ProjectGuid>
+    <ProjectGuid>{c6fd97b3-5976-5b98-6863-aa630092592e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -301,22 +301,22 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -700,234 +700,234 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.MockHMD">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.MockHMD.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.MockHMD.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.MockHMD.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.MockHMD.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\pc\Desktop\DefenceGame\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\pc\Desktop\DG\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6fd1ffa4-b562-d54b-897c-84330f3fce44}</Project>
+      <Project>{ed82f768-cf9d-bc48-4e82-d1a8f6a5a326}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
-      <Project>{b11e0aca-fba2-9593-055a-4c5a062a4840}</Project>
+      <Project>{55f157f2-cc43-1712-35cc-d742cec2763e}</Project>
       <Name>AssistantCoreSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Voice.Demo.csproj">
-      <Project>{b4d49fd2-b0ac-8fb2-9691-5f2b425b529b}</Project>
+      <Project>{9d39c32e-7ac5-14e3-cbf3-34ffcf16419a}</Project>
       <Name>Oculus.Voice.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{d8aa8e8d-315c-a05f-1307-43b8567fa375}</Project>
+      <Project>{b1142a94-67f6-d888-7351-1395359c5570}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{d86240f0-9556-0d94-f57b-edaa9a124039}</Project>
+      <Project>{248781e3-55a9-a5fa-dde2-d36f65dd5712}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{56843d95-eb05-a029-08fb-63624c4e40c8}</Project>
+      <Project>{f830a8aa-464a-eda6-0794-e88f249db6f9}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{3570d096-9c8e-33de-10ca-185e1fca9490}</Project>
+      <Project>{30815bde-5892-cafc-2aa7-1983e92f534e}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Conduit.csproj">
-      <Project>{b29e6c6f-f0d1-a16a-6d21-ba117a8fa897}</Project>
+      <Project>{4c4b53e7-3a7b-a683-0665-0550659d6194}</Project>
       <Name>Facebook.Wit.Conduit</Name>
     </ProjectReference>
     <ProjectReference Include="LitJson.csproj">
-      <Project>{a871f0be-f075-2a9a-1c60-e4eae57b9a8e}</Project>
+      <Project>{0181bb86-2e9a-2097-89a9-13739b1f9b27}</Project>
       <Name>LitJson</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.WitAI.csproj">
-      <Project>{2ed04469-e28e-d42d-1d20-32495dc73f67}</Project>
+      <Project>{8dd6b8d6-f7c7-c3d5-c332-37ed34712830}</Project>
       <Name>Facebook.WitAI</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.csproj">
-      <Project>{69b18935-8377-7af4-44bc-7e13e3885800}</Project>
+      <Project>{f6003e3e-770b-7bf9-3be9-ddf1902705f0}</Project>
       <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{16a944c5-3cb0-27ac-b0bf-af7723f2caa3}</Project>
+      <Project>{e8d9022e-3f2e-9f07-5cd4-cad0314b91c4}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{327aeb5c-ffb3-444c-b8de-2f25dbd3d3f0}</Project>
+      <Project>{242610f9-e8f7-83e2-8ade-cd049ee9715d}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{3f248fb4-1689-c98f-763a-1470d9359244}</Project>
+      <Project>{31438543-0758-fe1b-0cbe-ec33c5adc5a4}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{87f62cf5-77fd-74b1-d1de-b41c88aa87b8}</Project>
+      <Project>{4c1587b5-31f5-9fb3-821b-3ff31666f67e}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.csproj">
-      <Project>{0a32254b-7b58-4286-0da8-dc62718e0839}</Project>
+      <Project>{a444235c-ebe7-2fb1-d809-f6151db45a03}</Project>
       <Name>Facebook.Wit.TTS</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{baaafc0c-8f93-ad50-0e11-5783a49eb5c7}</Project>
+      <Project>{4038e120-55ae-b691-cd7d-1b256b2dc51f}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Editor.csproj">
-      <Project>{d26e0de4-1c12-8763-3b38-d9172cbb5307}</Project>
+      <Project>{fc86d5ec-9e29-1d2a-5f49-308c1df8ca79}</Project>
       <Name>Facebook.Wit.TTS.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.csproj">
-      <Project>{004fef65-4d83-d1d5-513c-22968875c067}</Project>
+      <Project>{81c786c7-e8db-8e66-8350-4aa33297715a}</Project>
       <Name>Oculus.Interaction.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{7d441aea-89a3-8a16-f4c2-0c992a8bda7e}</Project>
+      <Project>{ddac4db6-d6a2-d16f-4af4-590a6e96fd23}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
-      <Project>{47de0529-a1f8-4e40-998e-b4a6414188c3}</Project>
+      <Project>{0ba3e660-2351-2faa-ada4-ae98b3933444}</Project>
       <Name>Oculus.Interaction.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{f3b0f4e6-fe64-a197-7af6-eb18eb9b43c6}</Project>
+      <Project>{1e55fbf9-8ca0-148f-abc2-3946a9a9c839}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{841a94da-0512-823b-a873-7e67983cad45}</Project>
+      <Project>{6495b52e-c121-2b9f-6c0b-07ec8656aa4a}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{b0b5e049-46be-0e35-9c3d-ca397fbd73f6}</Project>
+      <Project>{4b4c1ecc-84b1-453b-adbf-8dff1cecb560}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Conduit.Editor.csproj">
-      <Project>{8c7607db-936e-4f39-9c99-43dac0560abd}</Project>
+      <Project>{a2797c36-4c9f-d315-02b1-01fefdb9df2e}</Project>
       <Name>Facebook.Wit.Conduit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{6494dbbf-a64a-18e3-2549-ceff9ab81f87}</Project>
+      <Project>{59e5ae7a-8aaf-5355-630b-c78bdbaec494}</Project>
       <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
-      <Project>{b0fc5c8b-4cae-f14e-8372-060e7629b813}</Project>
+      <Project>{2be2b6be-4f25-320e-0abd-4ae0041a547b}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Editor.csproj">
-      <Project>{bf3a8aed-b8ac-af64-de81-a541205c61ab}</Project>
+      <Project>{e730af3a-b452-f063-85a5-695e11a542bb}</Project>
       <Name>Facebook.Wit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{2fa89e03-aecd-c83a-d4ad-546693783894}</Project>
+      <Project>{7760118b-163f-5cec-29e7-0ccb5c22cfd1}</Project>
       <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
-      <Project>{16896258-73d1-3dd8-f1bb-d1cdd6f40d96}</Project>
+      <Project>{0ccb8618-9f37-58b1-194b-0ace8944e50c}</Project>
       <Name>VoiceSDK.Dictation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{d3e622aa-6139-04e3-246d-e97df5786792}</Project>
+      <Project>{f440282f-02b5-f3e1-2933-7b1f081eba6c}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.TTS.Samples.csproj">
-      <Project>{64a6ab83-98b9-3d26-7929-e4d0cb988db3}</Project>
+      <Project>{8367d400-1e60-6dd0-c0b7-7a8823e168e0}</Project>
       <Name>Facebook.Wit.TTS.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{5bf349a1-bd98-07fe-2261-4ac493c4756a}</Project>
+      <Project>{f944f255-9685-e075-5c91-457b32fa3593}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{083f4787-5e21-7413-e362-347da2ba8801}</Project>
+      <Project>{27dff75a-443e-70d8-a1f2-c377db958f3c}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
