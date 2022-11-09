@@ -516,6 +516,7 @@
 "Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs"
 "Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
+"Assets/zombie (2)/GhoulController.cs"
 -langversion:9.0
 
 /deterministic
