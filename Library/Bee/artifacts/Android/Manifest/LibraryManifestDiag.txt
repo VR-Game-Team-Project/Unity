@@ -7,6 +7,7 @@ supports-gl-texture elements added because:
 android.permission.INTERNET was added because:
 	UnityEngine.Networking was present in:
 		Facebook.Wit.TTS-FeaturesChecked.txt
+		Unity.InputSystem-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
@@ -14,6 +15,7 @@ android.permission.INTERNET was added because:
 		Oculus.VR-FeaturesChecked.txt
 	UnityEngine.Network was present in:
 		Facebook.Wit.TTS-FeaturesChecked.txt
+		Unity.InputSystem-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.Services.Core.Networking-FeaturesChecked.txt
 		Unity.Services.Core.Telemetry-FeaturesChecked.txt
@@ -31,6 +33,10 @@ android.permission.RECORD_AUDIO, android.permission.MODIFY_AUDIO_SETTINGS, andro
 		Oculus.LipSync-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::GetTouch was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt
 	UnityEngine.Input::get_touchCount was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
 		UnityEngine.UI-FeaturesChecked.txt

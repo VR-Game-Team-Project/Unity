@@ -842,6 +842,10 @@
       <Project>{e8d9022e-3f2e-9f07-5cd4-cad0314b91c4}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{202aea80-4180-bf92-875b-524d61351c47}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{242610f9-e8f7-83e2-8ade-cd049ee9715d}</Project>
       <Name>Oculus.VR</Name>
