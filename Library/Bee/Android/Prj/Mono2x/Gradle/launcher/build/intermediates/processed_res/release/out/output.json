@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.DefenceGame",
+  "applicationId": "com.Yuno.DG",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.DefaultCompany.DefenceGame",
+        "packageId": "com.Yuno.DG",
         "split": "",
         "minSdkVersion": "24"
       }
