@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.DefenceGame'
+        applicationId 'com.Yuno.DG'
         ndk {
             abiFilters 'armeabi-v7a'
         }
