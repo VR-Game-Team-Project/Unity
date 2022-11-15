@@ -124,6 +124,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"C:/Documents/Github/Unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -326,7 +327,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"C:/Users/pc/Desktop/DG/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKEditor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/AssistantCoreSDKRuntime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Facebook.Wit.Conduit.Editor.ref.dll"
@@ -373,7 +373,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.CoreUtils.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.XR.MockHMD.Editor.ref.dll"
@@ -390,9 +389,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Dictation.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
-"Assets/FireBulletOnValidate.cs"
-"Assets/Low Poly Guns/Scripts/GunsMenu.cs"
-"Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs"
 "Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs"
@@ -516,7 +512,7 @@
 "Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs"
 "Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
-"Assets/zombie (2)/GhoulController.cs"
+"Assets/zombie/GhoulController.cs"
 -langversion:9.0
 
 /deterministic
