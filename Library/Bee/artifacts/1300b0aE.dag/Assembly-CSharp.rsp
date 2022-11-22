@@ -392,6 +392,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
 "Assets/AnimateHandOninput.cs"
 "Assets/FireBulletOnValidate.cs"
+"Assets/Gun sound/Scripts/Sound.cs"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs"
