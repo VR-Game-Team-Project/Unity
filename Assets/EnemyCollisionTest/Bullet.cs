@@ -18,6 +18,14 @@ public class Bullet : MonoBehaviour
         transform.position += transform.up * bulletspeed * Time.deltaTime;
        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Ghoul")
+        {
+            Debug.LogFormat("#### ######, ####");
+        }
+    }
 }
 
 

@@ -1,17 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
     public GameObject Bullet;
-    public float MAX_HP = 200;
-    private int Cur_HP = 100;
+    public float MAX_HP;
+    public int Kill;
+    private int Cur_HP;
+    public TMP_Text StateText;
+    public Transform FirePos;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cur_HP=200;
+        MAX_HP = 200;
+        Kill = 5;
+        StateUpdate();
     }
 
     // Update is called once per frame
@@ -25,7 +33,12 @@ public class Player : MonoBehaviour
     }
     void Fire()
     {
-        Instantiate(Bullet);
+        Instantiate(Bullet, FirePos.position, FirePos.rotation);
+    }
+
+    public void StateUpdate()
+    {
+        StateText.text = "Kill" + Kill + "  HP" + Cur_HP;
     }
 
     public void SetDamage(int damage)

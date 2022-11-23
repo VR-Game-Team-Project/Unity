@@ -6,6 +6,7 @@ public class GhoulController : MonoBehaviour
 {
     public float speed = 5;
     public int power = 10;
+    public int HP = 30;
     public float Enemy_Attack_Delay = 2f;
     Animator animator;
     private GameObject player;
@@ -50,6 +51,7 @@ public class GhoulController : MonoBehaviour
                     Cur_Attack_Time = 0.0f;
                     animator.SetTrigger("nearPlayer");
                     targetPlayer.SetDamage(power);
+                    targetPlayer.StateUpdate();
                 }
 
             }
@@ -60,4 +62,37 @@ public class GhoulController : MonoBehaviour
 
         }
     }
+
+    IEnumerator MoveDelay()
+    {
+        float tmpSpeed = speed; //current monster sppeed
+        speed = 0;
+        yield return new WaitForSeconds(0.2f);
+        speed = tmpSpeed;
+    }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other.name == "Bullet")
+    //    {
+    //        Debug.LogFormat("#### ######, ####");
+    //    }
+    //}
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Debug.LogFormat("#### ######, ####");
+            Destroy(collision.gameObject);
+            HP -= 10;
+            StartCoroutine(MoveDelay());
+            if (HP <= 0)
+            {
+                Destroy(gameObject);
+            }
+
+        }
+    }
+
+
 }
