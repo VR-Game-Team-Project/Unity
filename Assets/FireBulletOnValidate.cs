@@ -12,7 +12,8 @@ public class FireBulletOnValidate : MonoBehaviour
 
     Vector3 pos;
     public AudioClip shotsound;
-
+    private Player targetPlayer = null;
+    private GameObject player;
     int magazine_num;
     AudioSource audioSource;
     public float fireSpeed = 20;
@@ -22,6 +23,8 @@ public class FireBulletOnValidate : MonoBehaviour
         XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
         grabbable.activated.AddListener(FireBullet);
         magazine_num=40;
+        player = GameObject.FindGameObjectWithTag("Player");
+        targetPlayer = player.GetComponent<Player>();
     }
     private void OnTriggerEnter(Collider other) {
         //Trigger Point와의 collider로 변경
@@ -33,6 +36,7 @@ public class FireBulletOnValidate : MonoBehaviour
             magazine.SetActive(false);
             }
             magazine_num = 40;
+            targetPlayer.SetBullet(40);
 
         }
         
@@ -66,6 +70,9 @@ public class FireBulletOnValidate : MonoBehaviour
             spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
             Destroy(spawnedBullet,5);
             magazine_num = magazine_num-1;
+
+            targetPlayer.SetBullet(1);
+            targetPlayer.StateUpdate();
             
 
         }
