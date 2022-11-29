@@ -392,6 +392,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
 "Assets/AnimateHandOninput.cs"
 "Assets/FireBulletOnValidate.cs"
+"Assets/GhoulController.cs"
+"Assets/GhoulOriginalController.cs"
 "Assets/Gun sound/Scripts/Sound.cs"
 "Assets/Low Poly Guns/Scripts/GunsMenu.cs"
 "Assets/Low Poly Guns/Scripts/GunView.cs"
@@ -519,7 +521,7 @@
 "Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Scripts/SpatialAnchorSession.cs"
 "Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
-"Assets/zombie (2)/GhoulController.cs"
+"Assets/SunController.cs"
 -langversion:9.0
 
 /deterministic
