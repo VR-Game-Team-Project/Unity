@@ -37,6 +37,7 @@ public class FireBulletOnValidate : MonoBehaviour
             }
             magazine_num = 40;
             targetPlayer.SetBullet(40);
+            targetPlayer.StateUpdate();
 
         }
         
