@@ -80,7 +80,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Scrollbar
   serializedClasses:
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
@@ -131,7 +130,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
-    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
@@ -245,7 +243,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 25360}
+      Script: {instanceID: 26340}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -372,8 +370,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 7122}
-    - Class: 114
       Script: {instanceID: 7182}
     - Class: 114
       Script: {instanceID: 7552}
@@ -390,7 +386,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9032}
     - Class: 114
-      Script: {instanceID: 36272}
+      Script: {instanceID: 9138}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -4414,6 +4410,12 @@ ScriptsOnlyBuild:
     className: PlayerInputManager
   - hash:
       serializedVersion: 2
+      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: title
+  - hash:
+      serializedVersion: 2
       Hash: c76eff1ea36023656a8a30c87c55a36f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -4502,14 +4504,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: d91fcd9ac7bd86d3d771dd6171620fad
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: title
   platform: 13
   scenePathNames:
   - Assets/StartScene.unity
   - Assets/MainScene.unity
-  playerPath: C:/Users/pc/Desktop/mergeall7.apk
+  playerPath: C:/Users/pc/Desktop/mergeall12.apk

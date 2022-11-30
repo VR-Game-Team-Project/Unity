@@ -66,18 +66,22 @@ public class GhoulController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-       if(other.name == "Bullet")
+       if(other.gameObject.tag == "Bullet")
        {
-           Debug.LogFormat("#### ######, ####");
+            Debug.LogFormat("#### ######, ####");
             Destroy(other.gameObject);
+            
             HP -= 10;
             StartCoroutine(MoveDelay());
             if (HP <= 0)
             {
                 Destroy(gameObject);
+                targetPlayer.SetKill(1);
+                targetPlayer.StateUpdate();
             }
        }
     }
+    
 
 }
 

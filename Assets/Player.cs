@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
         Cur_HP=200;
         MAX_HP = 200;
         Bullet_num = 40;
-        Kill = 5;
+        Kill = 0;
         StateUpdate();
     }
 
@@ -68,6 +68,12 @@ public class Player : MonoBehaviour
             }
 
         }
+        
+    }
+    public void SetKill(int killnum)
+    {
+        
+        Kill +=killnum;
         
     }
 }
