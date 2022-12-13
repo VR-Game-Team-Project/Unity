@@ -12,6 +12,16 @@ public class title : MonoBehaviour
         Debug.Log("로딩"); // 확인
         SceneManager.LoadScene(sceneName);
     }
+    public void ClickreStart()// 마우스 >> oculus
+    {
+        Debug.Log("로딩"); // 확인
+        SceneManager.LoadScene(sceneName);
+    }
+
+     public void ClickExit()// 마우스 >> oculus
+    {
+        Application.Quit();
+    }
 
     /*public void ClickSetting()
     {

@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene.unity
     guid: ba8c898dd7fa0264b91dc169beaf9843
+  - enabled: 1
+    path: Assets/OverScene.unity
+    guid: db97145e29c22834f8f4d48c7e18e98f
+  - enabled: 1
+    path: Assets/EndingScene.unity
+    guid: 1592af96195eef141885ecf2f8cd4351
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4116fe4c424030142852330c43dbab43, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8618d61fab22046428a5a6e03e6ae41c, type: 2}

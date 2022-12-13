@@ -7,13 +7,14 @@ public class GhoulController : MonoBehaviour
     public float speed = 5;
     public int power = 10;
     public int HP = 30;
-    public float Enemy_Attack_Delay = 2f;
+    public float Enemy_Attack_Delay = 0.5f;
     Animator animator;
     private GameObject player;
     private float dist;
     private float Cur_Attack_Time = 0.0f;
-
+    private int firsttime = 0;
     private Player targetPlayer = null;
+    private int onetimecount;
 
     // Start is called before the first frame update
     void Start()
@@ -23,9 +24,19 @@ public class GhoulController : MonoBehaviour
         Vector3 dir = player.transform.position - transform.position;
         transform.rotation = Quaternion.LookRotation(dir);
         animator = GetComponent<Animator>();
+        speed=0.05f;
+        onetimecount=0;
     }
 
     // Update is called once per frame
+
+    void firsttimeaction(){
+        
+        animator.SetTrigger("nearPlayer");
+        targetPlayer.SetDamage(power);
+        targetPlayer.StateUpdate();
+
+    }
     void Update()
     {
         dist = Vector3.Distance(transform.position, player.transform.position);
@@ -38,17 +49,25 @@ public class GhoulController : MonoBehaviour
             // ATTACK
             if (targetPlayer != null)
             {
-                if (Cur_Attack_Time < Enemy_Attack_Delay)
-                {
-                    Cur_Attack_Time += Time.deltaTime;
+                if (firsttime==0){
+                    firsttime = 1;
+                    Invoke("firsttimeaction",0.1f);
+                    
+                }else{
+                    if (Cur_Attack_Time < Enemy_Attack_Delay)
+                    {
+                        Cur_Attack_Time += Time.deltaTime;
+                    }
+                    else
+                    {
+                        Cur_Attack_Time = 0.0f;
+                        animator.SetTrigger("nearPlayer");
+                        targetPlayer.SetDamage(power);
+                        targetPlayer.StateUpdate();
+                    }
+
                 }
-                else
-                {
-                    Cur_Attack_Time = 0.0f;
-                    animator.SetTrigger("nearPlayer");
-                    targetPlayer.SetDamage(power);
-                    targetPlayer.StateUpdate();
-                }
+                
 
             }
             else
@@ -70,14 +89,16 @@ public class GhoulController : MonoBehaviour
        {
             Debug.LogFormat("#### ######, ####");
             Destroy(other.gameObject);
-            
             HP -= 10;
             StartCoroutine(MoveDelay());
-            if (HP <= 0)
+            if (HP <= 0 && onetimecount==0)
             {
-                Destroy(gameObject);
+                onetimecount=1;
+                //animator.SetTrigger("nearPlayer");
                 targetPlayer.SetKill(1);
                 targetPlayer.StateUpdate();
+                Destroy(gameObject);
+                
             }
        }
     }

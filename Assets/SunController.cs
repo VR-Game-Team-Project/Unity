@@ -48,9 +48,9 @@ public class SunController : MonoBehaviour
             nightRatio = 1f;
         }
 
-        if (nightRatio > 0.1f)
+        if (nightRatio > 0.5f)
         {
-            RenderSettings.fogDensity = nightRatio - 0.1f;
+            RenderSettings.fogDensity = nightRatio - 0.5f;
         }
         RenderSettings.skybox.SetColor("_Tint", Color.Lerp(new Color(0.5f, 0.5f, 0.5f), new Color(0.05f, 0.05f, 0.05f), nightRatio));
     }
